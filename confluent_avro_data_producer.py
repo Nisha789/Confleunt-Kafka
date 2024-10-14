@@ -10,7 +10,7 @@ from confluent_kafka.serialization import StringSerializer
 
 # Define Kafka Configuration
 kafka_config = {
-    'bootstrap.servers': 'pkc-7prvp.centralindia.azure.confluent.cloud:9092',
+    'bootstrap.servers': 'hosts:9092',
     'sasl.mechanisms': 'PLAIN', # for secured authentication
     'security.protocol': 'SASL_SSL', # for secured authentication
     'sasl.username': 'XYZ', # Cluster API Key
@@ -19,7 +19,7 @@ kafka_config = {
 
 # Create a Schema Registry Client
 schema_registry_client = SchemaRegistryClient({
-    'url':'https://psrc-7yxz9w.southeastasia.azure.confluent.cloud',
+    'url':'url',
     'basic.auth.user.info':'{}:{}'.format('ABC','xyz') # Schema API Key and Password not cluster one
 })
 
