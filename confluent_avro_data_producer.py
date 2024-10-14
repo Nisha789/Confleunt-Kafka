@@ -13,14 +13,14 @@ kafka_config = {
     'bootstrap.servers': 'pkc-7prvp.centralindia.azure.confluent.cloud:9092',
     'sasl.mechanisms': 'PLAIN', # for secured authentication
     'security.protocol': 'SASL_SSL', # for secured authentication
-    'sasl.username': 'VG7C52XOFINQF3MK', # Cluster API Key
-    'sasl.password': 'GRiq/Y8ImvA5KOs2olcFm7E5u0hOausYjiGpE68SrxvMvgQmi2JLoYg/g4YY9bQw' # Cluster API Password
+    'sasl.username': 'XYZ', # Cluster API Key
+    'sasl.password': 'ABC' # Cluster API Password
 } 
 
 # Create a Schema Registry Client
 schema_registry_client = SchemaRegistryClient({
     'url':'https://psrc-7yxz9w.southeastasia.azure.confluent.cloud',
-    'basic.auth.user.info':'{}:{}'.format('H3JREM4NAKCCYWW3','6ePl6mjPJ9+a+TZ1hcs6pPzC7hNq5G/g3e2HNjcnRNecP/7vhML95k3MDyC8O4Ov') # Schema API Key and Password not cluster one
+    'basic.auth.user.info':'{}:{}'.format('ABC','xyz') # Schema API Key and Password not cluster one
 })
 
 # Fetch the latest Avro Schema for the value
