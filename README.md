@@ -1,4 +1,4 @@
-# Confluent Kafka Producer and Consumer Example
+# Real-Time Data Streaming with Confluent Kafka: Producer-Consumer Implementation
 
 This repository contains an example project demonstrating how to produce and consume Avro data using Confluent Kafka. The project includes Python scripts to interact with Kafka and manage data in Avro format.
 
